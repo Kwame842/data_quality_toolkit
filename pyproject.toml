@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data_quality_toolkit"
+version = "0.1.0"
+description = "Reusable Data Quality Toolkit"
+
+
+authors = [
+    { name = "Kwame Boateng", email = "nanaboatengg42@gmail.com" }
+]
+
+dependencies = [
+    "pandas",
+    "numpy"
+]
+
+[tool.setuptools]
+packages = ["data_quality_toolkit"]
